@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Asus ROG Strix XG309CM 29.5 inch",
+      "image": "https://www.jbhifi.com.au/cdn/shop/products/579801-Product-1-I-637886610177812167_1024x1024.jpg",
+      "price": 485,
+      "review": 947,
+      "catagory": "Monitor"
+    },
+    {
+      "id": 2,
+      "title": "Razer Kraken V3 X Wired",
+      "image": "https://www.startech.com.bd/image/cache/catalog/headphone/razer/kraken-v3-x/kraken-v3-x-010-500x500.jpg",
+      "price": 239,
+      "review": 582,
+      "catagory": "Headphone"
+    },
+    {
+      "id": 3,
+      "title": "Razer Naga Trinity - MOBA/MMO",
+      "image": "https://m.media-amazon.com/images/I/714T3kkuhwL.jpg",
+      "price": 125,
+      "review": 1205,
+      "catagory": "Mouse"
+    },
+    {
+      "id": 4,
+      "title": "Rk Royal Kludge Rk61 2.4Ghz",
+      "image": "https://m.media-amazon.com/images/I/71iboo6UxhL._AC_UF1000,1000_QL80_.jpg",
+      "price": 162,
+      "review": 836,
+      "catagory": "Keyboard"
+    }
+  ]
+}
