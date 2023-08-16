@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ====================================================================================================== -->
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./index.css" defer />
+    <!-- ====================================================================================================== -->
+    <script src="./app.js" defer></script>
     <!-- ====================================================================================================== -->
     <link
       rel="stylesheet"
@@ -14,13 +16,13 @@
     <title>QuantumBits</title>
   </head>
   <body class="bg-gray-100 text-gray-600 text-lg font-normal">
+    <!-- ===============================================NAV==================================================== -->
     <header>
-      <!-- ===============================================NAV==================================================== -->
       <nav
         class="flex container mx-auto py-5 justify-between items-center border-b"
       >
         <h2 class="text-3xl lowercase italic font-bold">
-          QuantumBits-<span class="text-violet-500">Emporium</span>
+          Quantum-<span class="text-violet-500">Bits</span>
         </h2>
         <ul class="flex gap-5">
           <li>
@@ -45,7 +47,7 @@
         <div class="flex gap-5">
           <a
             href="#"
-            class="bg-violet-500 py-2 px-5 text-white rounded-full font-semibold capitalize"
+            class="bg-violet-500 py-2 px-5 text-white rounded-full font-semibold capitalize shadow-sm shadow-violet-200 hover:bg-rose-500 hover:shadow-rose-200 duration-300"
             >Shop now</a
           >
           <button class="relative">
@@ -59,7 +61,16 @@
           </button>
         </div>
       </nav>
-      <!-- ==================================================================================================== -->
     </header>
+    <!-- =================================================Products=============================================== -->
+    <section id="products" class="container mx-auto py-10">
+      <h2
+        class="text-4xl mb-10 text-center font-bold uppercase tracking-widest"
+      >
+        New arrivels
+      </h2>
+      <div class="product-wrapper flex flex-wrap gap-10 justify-center"></div>
+      <!-- product -->
+    </section>
   </body>
 </html>
