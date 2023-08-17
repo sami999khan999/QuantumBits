@@ -74,6 +74,7 @@
             </div>
             <div>
               <p class="price">$100</p>
+              <p><span>-</span><span>1</span><span>+</span></p>
             </div>
           </div>
         </div>
