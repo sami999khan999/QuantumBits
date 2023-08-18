@@ -39,9 +39,9 @@
 
         <div class="flex gap-5">
           <a href="#" class="bg-violet-500 py-2 px-5 text-white rounded-full font-semibold capitalize shadow-sm shadow-violet-200 hover:bg-rose-500 hover:shadow-rose-200 duration-300">Shop now</a>
-          <button class="relative">
+          <button class="cart relative">
             <i class="fa-solid fa-cart-shopping text-xl hover:text-violet-500 duration-300"></i>
-            <span class="absolute text-sm font-bold bottom-6 w-7 h-7 bg-rose-500 rounded-full px-1 py-1 text-rose-50 left-4">19</span>
+            <span class="item-count absolute text-sm font-bold bottom-6 w-7 h-7 bg-rose-500 rounded-full px-1 py-1 text-rose-50 left-4">0</span>
           </button>
         </div>
       </nav>
@@ -55,27 +55,17 @@
       <!-- product -->
     </section>
     <!-- =========================================Single-Product-Section========================================= -->
-    <div class="modal w-3/5 lg-2/5 h-screen bg-white/75 fixed top-0 right-0 backdrop-blur-xl shadow-2xl border-l-2 border-white celect-none p-5 py-10">
-      <div>
+    <div class="modal w-3/5 lg-2/5 h-screen bg-white/75 fixed top-0 right-0 backdrop-blur-xl shadow-2xl border-l-2 border-white celect-none p-5 py-10 duration-200 translate-x-full">
+      <div class="flex flex-col gap-10">
         <div class="flex justify-between items-center">
           <h3 class="card-headline text-2xl font-bold tracking-wide uppercase">
             Your cart
           </h3>
-          <span class="cart-close cursor-pointer">❌</span>
+          <span class="modal-close cursor-pointer">❌</span>
         </div>
 
         <div class="added-products flex flex-col gap-5">
-          <div class="added-product">
-            <div class="img">
-              <img src="https://m.media-amazon.com/images/I/71iboo6UxhL._AC_UF1000,1000_QL80_.jpg" alt="">
-            </div>
-            <div class="texts">
-              <h4>Razer Naga Trinity - MOBA/MMO</h4>
-            </div>
-            <div>
-              <p class="price">$100</p>
-            </div>
-          </div>
+          <!-- single product -->
         </div>
       </div>
     </div>
